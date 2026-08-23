@@ -1,1 +1,32 @@
----\nlayout: archive\ntitle: \"CV\"\npermalink: /cv/\nauthor_profile: true\nredirect_from:\n  - /resume\n---\n\n{% include base_path %}\n\nEducation\n======\n* Ph.D. in Computer Science, Hong Kong University of Science and Technology, 2024-Present\n* B.Eng., Shanghai Jiao Tong University, 2020-2024\n\nWork experience\n======\n* February 2025 - Present: Research Intern, MINIMAX\n* June 2024 - September 2024: Research Intern, Tencent WXG\n* June 2023 - December 2023: Research Intern, Shanghai AI Lab\n\nSkills\n======\n* Natural Language Processing and Machine Learning\n* LLM Reasoning and Reinforcement Learning\n* Hallucination in Vision-Language Models (VLM)\n* LLM Truthfulness and Interpretability\n\nPublications\n======\n  <ul>{% for post in site.publications reversed %}\n    {% include archive-single-cv.html %}\n  {% endfor %}\u003c/ul\u003e\n
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+Education
+======
+* Ph.D. in Computer Science, Hong Kong University of Science and Technology, 2024-Present
+* B.Eng., Shanghai Jiao Tong University, 2020-2024
+
+Work experience
+======
+* February 2025 - Present: Research Intern, MINIMAX
+* June 2024 - September 2024: Research Intern, Tencent WXG
+* June 2023 - December 2023: Research Intern, Shanghai AI Lab
+
+Skills
+======
+* Natural Language Processing and Machine Learning
+* LLM Reasoning and Reinforcement Learning
+* Hallucination in Vision-Language Models (VLM)
+* LLM Truthfulness and Interpretability
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}{% include archive-single-cv.html %}{% endfor %}</ul>
